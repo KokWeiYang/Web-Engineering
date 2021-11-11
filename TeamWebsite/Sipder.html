@@ -3,6 +3,17 @@
 <head>
   <title>TEAM WEBSITE: Spider.com</title>
   <style>
+    .header {
+      background-color: #323c975e;
+      height: 20%;
+      text-align: center;
+    }
+
+    body {
+      background-image: url('../TeamWebsite/images/Spidercom.png');
+    }
+
+
     .column {
       float: left;
       width: 33.33%;
@@ -11,10 +22,11 @@
       float: left;
     }
 
-    .header {
-      background-color: #323c97;
-      height: 15%;
-      text-align: center;
+    .memberinfo {
+      float: center;
+      border: 3px solid #4b005e71;
+      border-top: none;
+      padding: 10px;
     }
   </style>
 </head>
@@ -25,35 +37,57 @@
       text-align: center;
     }
   </style>
-  <h1 style="background-color:black;color:white;">Spider.com</h1>
+  <h1 style="background-color:black;color:white;width: 340px;margin: auto;font-size: 56px;">Spider.com</h1>
 
   <div id="container" style="width: 90%;margin: auto;">
     <div class="header">
       <h1 style="color:white">About Team</h1>
-      <p style="color:white">Spider.com is a team </p>
+      <ul style="color:rgb(44, 44, 63)">
+        <li>Spider.com is a team of 3 people.</li>
+        <li>We mainly develop applications for online platforms. </li>
+        <li>The team leader is <strong style="color:rgb(255, 255, 227)">Kok Wei Yang</strong>, and his main
+          responsibility is to supervise the completion and
+          participation of the
+          project.</li>
+        <li>Our team members are <strong style="color:rgb(255, 255, 227)">Neo Ming Ger</strong> and <strong
+            style="color:rgb(255, 255, 227)">Yap Sze Yun</strong>. </li>
+        <li> The main responsibility of Neo Ming Ger is Programmer and UI Designer during the development process.
+        </li>
+        <li>Then the Yap Sze Yun's main responsibilities are QA and Software Testers for this team. </li>
+        <li>The three of us will help each other out of our duties. </li>
+      </ul>
     </div>
     <div class="row">
-      <div class="column" id="member1" style="background-color:#7f8ae6; ">
-        <img src="https://github.com/KokWeiYang/Web-Engineering/blob/master/TeamWebsite/images/Weiyang.png"alt="weiyang_pic">
-        <p>My name            : Kok Wei Yang.</p>
-        <p>My matrix number   : 269971</p>
-        <p>My education level : Degree (Sem 5)</p>
-        <p>My email           : weiyangkok@gmail.com</p>
-        
+      <div class="column" id="member1" style="background-color:#7f89e67a; ">
+        <img src="../TeamWebsite/images/Weiyang.png" alt="weiyang_pic" style="height:50%">
+        <div class="memberinfo">
+          <p>My name : Kok Wei Yang.</p>
+          <p>My matrix number : 269971</p>
+          <p>My education level : Degree (Sem 5)</p>
+          <p>My email : weiyangkok@gmail.com</p>
+        </div>
       </div>
-      <div class="column" id="member2" style="background-color:#959ee9; ">
-        <img src="https://github.com/KokWeiYang/Web-Engineering/blob/master/TeamWebsite/images/Mingger.png"alt="mingger_pic">
-        <p>My name            : Neo Ming Ger .</p>
-        <p>My matrix number   : 270552</p>
-        <p>My education level : Degree (Sem 5)</p>
-        <p>My email           : mingger1999@hotmail.com</p>
-        
-      </div>
-      <div class="column" id="member3" style="background-color:#7f8ae6; ">
-        <p>My name is .</p>
-        <p>I am <b>tall</b> and I like to <b>play games</b>.</p>
+      <div class="column" id="member2" style="background-color:#959de979; ">
+        <img src="../TeamWebsite/images/Mingger.png" alt="mingger_pic" style="height:50%">
+        <div class="memberinfo">
+          <p>My name : Neo Ming Ger.</p>
+          <p>My matrix number : 270552</p>
+          <p>My education level : Degree (Sem 5)</p>
+          <p>My email : mingger1999@hotmail.com</p>
+        </div>
 
-        
+
+      </div>
+      <div class="column" id="member3" style="background-color:#7f89e675; ">
+        <img src="../TeamWebsite/images/Szeyun.png" alt="szeyun_pic" style="height:50%">
+        <div class="memberinfo">
+          <p>My name : Yap Sze Yun.</p>
+          <p>My matrix number : 261458</p>
+          <p>My education level : Degree (sem 7)</p>
+          <p>My email : yapszeyun@hotmail.com</p>
+        </div>
+
+
       </div>
     </div>
   </div>
